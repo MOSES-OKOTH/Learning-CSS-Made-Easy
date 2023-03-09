@@ -1,0 +1,16 @@
+.text1::before{
+    counter-reset: item-counter;
+    counter-increment: item-counter;
+    content: counter(item-counter) ". ";
+}
+
+li{
+    list-style: none;
+    list-style-position: outside;
+}
+
+.add::before{
+    counter-reset: add;
+    counter-increment: add;
+    content: counter(add)". ";
+}

@@ -1,0 +1,40 @@
+*{
+    font-family: system-ui, -apple-system;
+    color: yellow;
+}
+
+p{
+    margin-top: 15vh;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+div{
+    display: inline-flex;
+}
+
+.mask{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 30vw;
+    background: url(http://i.stack.imgur.com/lsyRy.png);
+    mask-image: linear-gradient(to right, white, transparent);
+    -webkit-mask-image: linear-gradient(to right, white, transparent);
+    background-size: cover;
+}
+
+.mask2{
+    background: url(http://i.stack.imgur.com/lsyRy.png);
+    background-size: cover;
+
+}

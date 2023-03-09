@@ -1,0 +1,37 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: 500;
+}
+
+input{
+    border-radius: 10px;
+}
+
+input:focus-within{
+    background-color: yellow;
+}
+input:in-range{
+    border-color: rgb(6, 89, 212);
+}
+
+fieldset{
+    border-radius: 10px;
+    border-color: brown;
+}
+
+#basicInfo fieldset{
+    border-radius: 20px;
+    border-color: red;
+}
+
+#education fieldset{
+    border-radius: 20px;
+    border-color: blue;
+}
+
+
+[type="submit"], [type="reset"] {
+    background-color: antiquewhite;
+    border-radius: 2px;
+}

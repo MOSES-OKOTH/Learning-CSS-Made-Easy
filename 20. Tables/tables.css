@@ -1,0 +1,38 @@
+*{
+    font-family: system-ui, -apple-system;
+    font-size: large;
+}
+
+table{
+    table-layout: auto;
+    border: 1px solid black;
+    border-radius: 1vw;
+    border-collapse: separate;
+    width: 98vw;
+    caption-side: top;
+}
+
+
+td{
+    background-color: green;
+    border: 1px solid black;
+    border-radius: .5vw;
+    border-collapse: collapse;
+}
+
+th{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+caption{
+    font-weight: bolder;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.header{
+    color: white;
+    font-weight: bold;
+}

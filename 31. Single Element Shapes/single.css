@@ -1,0 +1,46 @@
+*{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: system=ui, -apple-system;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    width: 30vh;
+    height: 30vh;
+    display: inline-flex;
+    overflow: scroll;
+    margin-top: 0px;
+    margin-bottom: 2vh;
+    margin-left: 20px;
+    background-color: antiquewhite;
+}
+
+.trapezium{
+    width: 50px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 30vh solid blue;
+}
+
+
+.circle{
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+
+.bottom{
+    height: 0;
+    width: 30vh;
+    border-bottom: 30vh solid transparent;
+    border-top: 30vh solid black;
+    border-left: 30vh solid transparent;
+    border-right: 30vh solid transparent;
+}

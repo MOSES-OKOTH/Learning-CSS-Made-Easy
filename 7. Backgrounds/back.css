@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(to left top, black, green, black, red, white);
+    background-size: 100vw 100vh;
+}
+
+
+body p{
+    color: white;
+    font-weight: 700;
+}
+#navigationBar{
+    background-color: grey;
+}
+
+#navigationBar a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}

@@ -1,0 +1,4 @@
+img{
+    float: left;
+    shape-outside: circle(50px at 50% 50%);
+}

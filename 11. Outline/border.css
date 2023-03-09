@@ -1,0 +1,48 @@
+body{
+    background: radial-gradient(circle, red, green);
+    background-size: 100vw 100vh;
+}
+
+div{
+    margin: 20px;
+}
+
+#c p{
+    color: white;
+    border: 2px solid red;
+    border-bottom-right-radius: 6px;
+}
+
+#c p>p{
+    border-top-left-radius: 15px 10px;
+}
+
+#d{
+    border: 2px dotted blueviolet;
+    outline: 1px dotted black;
+}
+
+#e{
+    border: 2px double blue;
+    outline: 2px double black;
+}
+
+#f{
+    border: 2px dashed green;
+    outline: 2px dashed black;
+}
+
+#g{
+    border: 2px inset blue;
+    outline: 2px inset;
+}
+
+#h{
+    border: 2px outset blue;
+    outline: 2px outset;
+}
+
+#j{
+    border: 3px solid black;
+    outline: groove gold;
+}

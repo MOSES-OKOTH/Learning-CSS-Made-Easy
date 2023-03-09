@@ -1,0 +1,23 @@
+div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: blue;
+    width: 90px;
+    height: 90px;
+}
+
+#lead{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    text-align: center;
+    font-family: -apple-system, system-ui;
+}

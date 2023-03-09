@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>In Range Pseudo class</title>
+        <link rel="stylesheet" href="range.css">
+        <link rel="icon" href="icon.png">
+    </head>
+
+
+    <body>
+        <fieldset>
+            <legend>THIS IS A TEST PROGRAM BY ACE</legend>
+            <br>
+            <form action="#" method="post">
+                <div id="basicInfo">
+                        <fieldset>
+                            <legend>BASIC INFORMATION</legend>
+                            <p>Name <input required type="text" minlength="8" placeholder="Username"></p>
+                            <p>Age <input required type="number" min="18" max="65" placeholder="Age"></p>
+                            <p>Id Number <input required type="number" minlength="8" placeholder="National ID number"></p>
+                        </fieldset>
+                </div>
+
+                <br>
+
+                <div id="education">
+                    <fieldset>
+                        <legend>EDUCATIONAL BACKGROUND</legend>
+                        <p>
+                            Highest Level of education
+                            <select name="LevelofEdu" id="le">
+                                <option value="Primary">Primary School</option>
+                                <option value="Sec">High school</option>
+                                <option value="Ter">University/College/Polytechnic</option>
+                            </select>
+                        </p>
+                        
+                    </fieldset>
+                </div>
+                
+                <br>
+
+                <input type="submit" value="SUBMIT">
+                <input type="reset" value="Reset">
+            </form>
+            <br>
+        </fieldset>
+    </body>
+</html>

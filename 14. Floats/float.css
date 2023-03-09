@@ -1,0 +1,40 @@
+@media screen and (min-width: 1080px){
+    body{
+        background: radial-gradient(circle, red, green, blue);
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat;
+    }
+
+    img{
+        float: left;
+    }
+
+    p{
+        color: white;
+        font-size: 40px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 800;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    body{
+        background: radial-gradient(circle, yellow, orange, blue);
+        background-size: 100vw 500vh;
+        background-repeat: no-repeat;
+    }
+
+    img{
+        width: auto;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+    }
+
+    p{
+        color: white;
+        font-size: larger;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 800;
+    }
+}

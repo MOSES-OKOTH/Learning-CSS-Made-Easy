@@ -1,0 +1,18 @@
+*{
+    font-family: system-ui, -apple-system;
+}
+
+.basicInfo{
+    caret-color: red;
+}
+
+.dob{
+    cursor: wait;
+}
+.name{
+    cursor: crosshair;
+}
+
+.id{
+    cursor: cell;
+}

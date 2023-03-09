@@ -1,0 +1,10 @@
+body{
+    background: radial-gradient(circle, green, blue);
+    background-size: 100vw 100vh;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

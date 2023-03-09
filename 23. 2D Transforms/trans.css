@@ -1,0 +1,43 @@
+*{
+    font-family: -apple-system, system-ui;
+    color: white;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(12, 44, 131);
+    margin: 30px;
+}
+
+.rotate{
+    transform: rotate(270deg);
+    text-align: center;
+}
+
+.translate{
+    transform: translate(100px, 100px);
+    background-color: purple;
+    margin-bottom: 200px;
+}
+
+.skew{
+    transform: skew(5deg, 150deg);
+}
+
+.scale{
+    transform: scale(1.5, 2.0);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: aqua;
+}
+
+.scale2{
+    transform: scale(.5, .6);
+    text-align: center;
+    background-color: brown;
+}
+
+.original{
+    text-align: center;
+}

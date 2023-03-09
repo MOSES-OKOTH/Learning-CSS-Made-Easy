@@ -1,0 +1,19 @@
+*{
+    font-family: system-ui, -apple-system;
+    font-size: large;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: lightgreen;
+    color: black;
+}
+
+.box:hover{
+    box-shadow: 0px 0px 3px 1px black;
+}

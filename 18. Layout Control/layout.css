@@ -1,0 +1,17 @@
+.master1{
+    display: inline;
+    background-color: blue;
+    border: 1px solid grey;
+
+}
+
+.master2{
+    display: block;
+    background-color: green;
+    border: 1px solid greenyellow;
+}
+li{
+    display: inline-block;
+    background-color: beige;
+    border: 1px solid green;
+}

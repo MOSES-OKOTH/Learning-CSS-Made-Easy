@@ -1,0 +1,59 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.calc{
+    position: relative;
+    height: calc(20vh - 80px);
+    width: calc(50vw - 90px);
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 2vw;
+}
+
+:root{
+    --color: red;
+    --bcolor: lightgreen;
+    --tcolor: white;
+    --height: 100px;
+    --width: 200px;
+    --border: 2px;
+}
+
+.var{
+    color: var(--color);
+    background-color: var(--bcolor);
+    height: var(--height);
+    width: var(--width);
+    border: var(--border);
+}
+
+.linear{
+    color: var(--tcolor);
+    height: var(--height);
+    width: var(--width);
+    background: linear-gradient(to right, blue, yellowgreen, green);
+}
+
+.radial{
+    height: var(--height);
+    width: var(--width);
+    background: radial-gradient(circle, blue, red);
+    color: var(--tcolor);    
+}
+
+.calc, .var, .linear, .radial{
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+    border-radius: 2vw;
+}
+
+*{
+    font-family: system-ui, -apple-system;
+    font-weight: 750;
+}

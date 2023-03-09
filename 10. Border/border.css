@@ -1,0 +1,43 @@
+body{
+    background: radial-gradient(circle, red, green);
+    background-size: 100vw 100vh;
+}
+
+div{
+    margin: 20px;
+}
+
+#c p{
+    color: white;
+    border: 2px solid red;
+    border-bottom-right-radius: 6px;
+}
+
+#c p>p{
+    border-top-left-radius: 15px 10px;
+}
+
+#d{
+    border: 2px dotted blueviolet;
+}
+
+#e{
+    border: 2px double blue;
+}
+
+#f{
+    border: 2px dashed green;
+}
+
+#g{
+    border: 2px inset blue;
+}
+
+#h{
+    border: 2px outset blue;
+}
+
+#j{
+    border-image: linear-gradient(to left, green, blue, yellow, grey, pink);
+    border-image-slice: 1;
+}

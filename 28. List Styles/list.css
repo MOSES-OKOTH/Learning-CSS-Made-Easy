@@ -1,0 +1,11 @@
+li:first-child{
+    list-style: circle;
+}
+
+li:nth-child(2n){
+    list-style: decimal-leading-zero;
+}
+
+li:nth-child(2n+1){
+    list-style: lower-roman;
+}

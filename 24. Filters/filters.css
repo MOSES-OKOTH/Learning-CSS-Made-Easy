@@ -1,0 +1,72 @@
+*{
+    font-family: system-ui;
+    font-size: x-large;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    height: auto;
+    width: 250px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+div{
+    display: inline-flex;
+    width: 400px;
+    height: auto;
+    overflow-y: scroll;
+}
+
+.blur{
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+.grayscale{
+    filter: grayscale(80%);
+    -webkit-filter: grayscale(80%);
+}
+
+.hueRotate{
+    filter: hue-rotate(90deg);
+    -webkit-filter: hue-rotate(90deg);
+}
+
+.brightness{
+    filter: brightness(125%);
+    -webkit-filter: brightness(125%);
+}
+
+.saturation{
+    filter: saturate(125%);
+    -webkit-filter: saturate(125%);
+}
+
+.sepia{
+    filter: sepia(80%);
+    -webkit-filter: sepia(80%);
+}
+
+.invert{
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    color: greenyellow;
+}
+
+.opacity{
+    filter: opacity(60%);
+    -webkit-filter: opacity(60%);
+}
+
+.contrast{
+    filter: contrast(125%);
+    -webkit-filter: contrast(125%);
+}
